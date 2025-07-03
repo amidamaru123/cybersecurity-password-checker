@@ -7,7 +7,7 @@ This is a simple and interactive web-based password security tool designed to he
 
 ## 🌐 Live Demo
 
-[Click here to try the demo](https://amidamaru123.github.com/cybersecurity-password-checker)
+[Click here to try the demo](https://cybersecurity-password-checker.pages.dev/)
 
 ---
 
