@@ -3,14 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Провери Паролата Си</title>
+  <title id="title">Провери Паролата Си</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>🔐 Провери своята парола</h1>
+    <select id="language" onchange="setLanguage(this.value)">
+      <option value="bg">🇧🇬 Български</option>
+      <option value="en">🇬🇧 English</option>
+      <option value="fr">🇫🇷 Français</option>
+      <option value="ar">🇸🇦 العربية</option>
+      <option value="zh">🇨🇳 中文</option>
+      <option value="ja">🇯🇵 日本語</option>
+    </select>
+
+    <h1 id="header">🔐 Провери своята парола</h1>
     <input type="password" id="password" placeholder="Въведи паролата си...">
-    <button onclick="checkPassword()">Провери</button>
+    <button onclick="checkPassword()" id="checkBtn">Провери</button>
     <p id="result"></p>
   </div>
   <script src="script.js"></script>
